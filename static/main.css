@@ -53,6 +53,10 @@ ul.links li {
   border-right: 1px solid #222f3e;
 }
 
+ul.experiences {
+  padding-left: 1.3em;
+}
+
 ul.experiences li {
   margin-bottom: 0.8em;
 }
