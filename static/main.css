@@ -21,6 +21,7 @@ body {
 
 h1 {
   font-size: 2.5em;
+  margin-bottom: 0;
 }
 
 h2 {
@@ -32,16 +33,32 @@ a {
   color: #222f3e;
 }
 
-ul {
+ul.links {
   margin: 0;
   padding: 0;
 }
 
-ul li {
-  list-style: none;
+ul.links li:first-child {
+  padding-left: 0;
 }
 
-li {
+ul.links li:last-child {
+  border-right: 0;
+}
+
+ul.links li {
   float: left;
-  margin-right: 1.2em;
+  list-style: none;
+  padding: 0 0.5em 0 0.5em;
+  border-right: 1px solid #222f3e;
+}
+
+ul.experiences li {
+  margin-bottom: 0.8em;
+}
+
+ul.experiences li span {
+  display: block;
+  padding-left: 2px;
+  color: #7f8c8d !important;
 }
