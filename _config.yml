@@ -1,0 +1,18 @@
+name: Your New Jekyll Site
+description: Blogging about stuffs
+meta_description: "Your New Jekyll Site, Blogging about stuffs"
+
+aboutPage: true
+
+markdown: kramdown
+highlighter: rouge
+
+plugins: [jekyll-paginate]
+# Default configuration
+paginate:           20
+domain_name:        'https://benevides.pro'
+google_analytics:   'UA-55331862-1'
+
+# Details for the RSS feed generator
+url:            'https://benevides.pro'
+permalink:       /:title/
