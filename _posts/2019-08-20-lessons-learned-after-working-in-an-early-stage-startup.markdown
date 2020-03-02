@@ -1,6 +1,7 @@
 ---
 title:  "Lessons learned after working in an early-stage startup"
 date:   2019-08-20 15:18:00
+tags:   software-engineering startups teams
 ---
 
 There’s no glamour on working in early-stage startups. Low budgets, uncertainty environment, and fast product iterations are completely normal on a daily basis. However, there are a lot of amazing (and complex) challenges to face, especially when the company starts a hypergrowth strategy.

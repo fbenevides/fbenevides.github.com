@@ -88,3 +88,20 @@ article h1 {
   line-height: 1;
   margin-bottom: 30px;
 }
+
+article footer {
+  background: #c7ecee;
+  padding: 20px;
+}
+
+ul.tags {
+  list-style: none;
+  padding: 0;
+}
+
+ul.tags li {
+  display: inline;
+  font-size: 0.8em;
+  background: #c7ecee;
+  padding: 7px;
+}

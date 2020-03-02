@@ -16,3 +16,5 @@ google_analytics:   'UA-55331862-1'
 # Details for the RSS feed generator
 url:            'https://benevides.pro'
 permalink:       /:title/
+
+twitter: 'fbnvds'
