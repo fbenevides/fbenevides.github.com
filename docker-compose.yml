@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    command: bash -c "bundle exec jekyll serve --drafts --host 0.0.0.0"
+    volumes:
+      - .:/blog
+    ports:
+      - "4000:4000"
